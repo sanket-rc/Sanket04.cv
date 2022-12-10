@@ -50,13 +50,18 @@
     <!-- End header -->
 
     <div id="lead">
+        <!-- <div style="display:flex"> -->
+        <div class="image_container">
+            <img style="width: 374px; height: 374px; border-radius: 220px;" src="images/profile_picture.jpg">
+        </div>
         <div id="lead-content">
             <h1>Sanket Chaudhari</h1>
             <h2 style="color: gold;">Software Engineer</h2>
-            <a href="https://www.linkedin.com/in/sanketrchaudhari/" class="btn-rounded-white fa fa-linkedin" style="font-size: 22px;"></a>
-            <a href="Sanket_Chaudhari_Resume.pdf" download="true" class="btn-rounded-white" style="font-size: 18px;">Download Resume</a>
-            <a href="https://github.com/sanket-rc" class="btn-rounded-white fa fa-github" style="font-size: 22px;"></a>
+            <a href="https://www.linkedin.com/in/sanketrchaudhari/" class="btn-rounded-white fa fa-linkedin" style="font-size: 22px;" target="_blank"></a>
+            <a href="Sanket_Chaudhari_Resume.pdf" download="true" class="btn-rounded-white" style="font-size: 18px;" target="_blank">Download Resume</a>
+            <a href="https://github.com/sanket-rc" class="btn-rounded-white fa fa-github" style="font-size: 22px;" target="_blank"></a>
         </div>
+        <!-- </div> -->
         <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
@@ -90,7 +95,7 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="January 2022 – Present">
+            <div data-date="August 2022 – Present">
                 <h3>Arizona State University</h3>
                 <h4>Graduate Student Assistant</h4>
                 <p>
@@ -98,7 +103,7 @@
                 </p>
             </div>
 
-            <div data-date="June 2019 – May 2020">
+            <div data-date="April 2020 – December 2021">
                 <h3>CitiusTech Inc</h3>
                 <h4>Software Engineer</h4>
                 <p>
@@ -119,7 +124,7 @@
                 </p>
             </div>
 
-            <div data-date="April 2020 – December 2021">
+            <div data-date="June 2019 – May 2020">
                 <h3>CitiusTech Inc</h3>
                 <h4>Trainee Software Engineer</h4>
                 <p>
@@ -159,6 +164,11 @@
                     <li>Mobile Computing</li>
                     <li>Data Visualization</li>
                     <li>Statistical Machine Learning</li>
+                    <li>Software Security</li>
+                    <li>Software Requirements and Specialization</li>
+                    <li>Knowledge Representation and Reasoning</li>
+                    <li>Software Integration and Engineering</li>
+                    <li>Database Management System Implementation (Future course)</li>
                 </ul>
             </p>
         </div>
@@ -194,6 +204,70 @@
             <div class="row">
 
 
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img style="width: 320px; height: 255px;" src="images/mobile-offloading.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <!-- <a href="https://github.com/sanket-rc/Face_Recognition_AWS_Lambda" target="_blank"> -->
+                            <h3>Mobile offloading: Handwritten digit classification</h3>
+                        <!-- </a> -->
+                        <p>
+                            <ul style="text-align: initial;color:#74808a; font-size: 14.4px;">
+                                <li>
+                                    Developed an android application that lets users click pictures of handwritten digits, dividing it into four quadrants and sending each quadrant to a slave device. The device which is uploading an image is ran in Master mode.
+                                </li>
+                                <li>
+                                    Built a slave mode in the application that receives the image quadrants from the Master device and does the classification, thus sending the result back to the Master device.
+                                </li>
+                                <li>
+                                    Master device does the classification using the confidance values received from the four slave devices and outputs the classification result.
+                                    <!-- <a href="https://github.com/sanket-rc/Face_Recognition_AWS_Lambda" target="_blank"><b>(Demo-Video)</b></a> -->
+                                </li>
+                            </ul>
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <div class="project shadow-large">
+                    <div class="project-image" style="width: 320px; height: 345px;">
+                        <img style="width: 320px; height: 255px; margin-top:40px;" src="images/data-visualization.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <a href="https://github.com/sanket-rc/Data_Visualization_Analyse_Emotional_Style_of_Data_Derived_From_Social_Media" target="_blank">
+                            <h3><b>PEARL:</b> An interactive visual analytic tool for understanding personal emotional style derived from social media : 
+                            </h3>
+                        </a>
+                        <p>
+                            <ul style="text-align: initial;color:#74808a; font-size: 14.4px;">
+                                <li>
+                                    A person’s emotions have a significant impact on their behavior and performance in the real world. Hence, understanding and finding patterns in a person’s emotions is highly beneficial to both individuals and businesses. 
+                                </li>
+                                <li>
+                                    PEARL (Personal Emotion Analysis, Reasoning, and Learning) is a timeline-based visual emotion analysis tool that will enable users to interactively evaluate and examine a person's emotional patterns across time from their social media text.
+                                </li>
+                                <li>
+                                    <a href="https://sanket-rc.github.io/Data_Visualization_Analyse_Emotional_Style_of_Data_Derived_From_Social_Media/" target="_blank"><b>Visualization</b></a>
+                                       - Stream graph, Marimekko chart, Word Cloud, Circle Packing, Pie Chart, Area Chart, Line Chart
+                                </li>
+                                <li>
+                                    The dataset used in this project consists of a date and timestamp along with the tweet text obtained using the Twitter API for a specific user.
+                                </li>
+                            </ul>
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img style="width: 320px; height: 255px;" src="images/Architecture_Lambda.png" />
@@ -364,6 +438,7 @@
             <li>Bamboo</li>
             <li>Docker</li>
             <li>D3.js</li>
+            <li>Android</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -376,7 +451,14 @@
                 </div>
                 <div class="col-md-8">
                     <p style="color:#74808a; font-size: 14.4px;">
-                        Apart from software development, I enjoy most of my time being outdoors playing any sport. I am a gastronome most days of the month. I enjoy hiking, kayaking and long walks.
+                        <ul>
+                            <li>
+                                Apart from software development, I enjoy most of my time being outdoors playing any sport like Basketball, badminton, table-tennis. I do visit the gym few times a week which helps keeping myself active. I also enjoy trekking, fishing and listening to music.
+                            </li>
+                            <li>
+                                I watch a lot of thriller, sports & horror-themed movies and television shows when confined indoors. Additionally, I devote a significant portion of my free time to researching the most recent technological developments in the fields of software and web development.
+                            </li>
+                        </ul>
                     </p>
                 </div>
             </div>
