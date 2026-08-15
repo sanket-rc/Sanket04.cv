@@ -1,0 +1,4 @@
+name = "sanket-portfolio"
+
+[assets]
+directory = "."
