@@ -1,4 +1,5 @@
-name = "sanket-portfolio"
+name = "sanket04-cv"
+compatibility_date = "2026-08-15"
 
 [assets]
 directory = "."
